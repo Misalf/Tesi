@@ -40,9 +40,11 @@
 	\tableofcontents
 	%FINE INDICE
 	
-	%CAPITOLO INTRODUZIONE
+	%INTRODUZIONE
 	\chapter*{Introduzione}
 	\addcontentsline{toc}{chapter}{Introduzione}
+	
+	%FINE INTRODUZIONE
 		
 	%INIZIO DEL PRIMO CAPITOLO
 	\chapter{Generale}
@@ -55,6 +57,11 @@
 	
 	\chapter{Feed Forward}
 	\chapter{Ricorrenti}
-		
+
+\clearpage 
+%\phantomsection 
+\addcontentsline{toc}{section}{\refname}
+\begin{thebibliography}{hetichetta più lungai} \bibitem[hetichetta personalizzatai]{hchiave di citazionei} ... 
+\end{thebibliography}
 	
 \end{document}

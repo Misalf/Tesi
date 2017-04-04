@@ -9,3 +9,4 @@
 \contentsline {section}{\numberline {1.5}Funzioni di attivazione}{5}
 \contentsline {chapter}{\numberline {2}Feed Forward}{6}
 \contentsline {chapter}{\numberline {3}Ricorrenti}{7}
+\contentsline {section}{Riferimenti bibliografici}{8}
