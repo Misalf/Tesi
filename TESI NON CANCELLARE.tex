@@ -1,0 +1,39 @@
+\documentclass[12pt,a4paper,oneside]{book}
+\usepackage[italian]{babel}
+\usepackage[UTF8]{inputenc}
+%\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{fancyhdr} \newcommand{\fncyblank}{\fancyhf{}}
+\newenvironment{abstract}% 
+{\cleardoublepage\fncyblank\null \vfill\begin{center}% 
+\bfseries \abstractname \end{center}}% 
+	{\vfill\null}
+\author{Maria Luisa Feola}
+\title{Reti Neurali}
+
+\begin{document}
+	
+	\begin{flushright} %DEDICA
+		\null\vspace{\stretch{1}}
+		\thispagestyle{empty}
+		Dedica
+		\vspace{\stretch{2}}\null
+	\end{flushright}  %FINE DEDICA
+
+	\tableofcontents
+	\chapter*{Introduzione}
+	\addcontentsline{toc}{chapter}{Introduzione}
+	\chapter{Generale}
+		\section{Cosa, quando e perchè?}
+		\section{Biologia}
+		\section{Struttura e modello matematico}
+		\section{Architettura}
+		\section{Funzioni di attivazione}
+	\chapter{Feed Forward}
+	\chapter{Ricorrenti}
+		
+	
+\end{document}
