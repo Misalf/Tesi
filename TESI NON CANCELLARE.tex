@@ -7,38 +7,52 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{eso-pic}
-\usepackage{fancyhdr} \newcommand{\fncyblank}{\fancyhf{}}
+\usepackage{fancyhdr} 
+\newcommand{\fncyblank}{\fancyhf{}}
 \newenvironment{abstract}% 
 {\cleardoublepage\fncyblank\null \vfill\begin{center}% 
 \bfseries \abstractname \end{center}}% 
-	{\vfill\null}
+{\vfill\null}
 \newcommand\AlCentroPagina[1]{% 
 \AddToShipoutPicture*{\AtPageCenter{%
 \makebox(0,0){\includegraphics%
 [width=0.9\paperwidth]{#1}}}}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex}
 \author{Maria Luisa Feola}
 \title{Reti Neurali}
 
 \begin{document}
+	%FRONTESPIZIO
 	\AlCentroPagina{Immagini/Frontespizio}\thispagestyle{empty}
 	
-	\begin{flushright} %DEDICA
+	%DEDICA
+	\begin{flushright} 
 		\newpage
 		\null\vspace{\stretch{1}}
 		\thispagestyle{empty}
 		Dedica
 		\vspace{\stretch{2}}\null
-	\end{flushright}  %FINE DEDICA
-
+	\end{flushright} 
+   	%FINE DEDICA
+   	
+   	%INDICE
 	\tableofcontents
+	%FINE INDICE
+	
+	%CAPITOLO INTRODUZIONE
 	\chapter*{Introduzione}
 	\addcontentsline{toc}{chapter}{Introduzione}
+		
+	%INIZIO DEL PRIMO CAPITOLO
 	\chapter{Generale}
 		\section{Cosa, quando e perchè?}
 		\section{Biologia}
 		\section{Struttura e modello matematico}
 		\section{Architettura}
 		\section{Funzioni di attivazione}
+	%FINE DEL PRIMO CAPITOLO
+	
 	\chapter{Feed Forward}
 	\chapter{Ricorrenti}
 		
