@@ -1,11 +1,11 @@
 \select@language {italian}
 \select@language {italian}
-\contentsline {chapter}{Introduzione}{3}
-\contentsline {chapter}{\numberline {1}Generale}{4}
-\contentsline {section}{\numberline {1.1}Cosa, quando e perch\IeC {\`e}?}{4}
-\contentsline {section}{\numberline {1.2}Biologia}{4}
-\contentsline {section}{\numberline {1.3}Struttura e modello matematico}{4}
-\contentsline {section}{\numberline {1.4}Architettura}{4}
-\contentsline {section}{\numberline {1.5}Funzioni di attivazione}{4}
-\contentsline {chapter}{\numberline {2}Feed Forward}{5}
-\contentsline {chapter}{\numberline {3}Ricorrenti}{6}
+\contentsline {chapter}{Introduzione}{4}
+\contentsline {chapter}{\numberline {1}Generale}{5}
+\contentsline {section}{\numberline {1.1}Cosa, quando e perch\IeC {\`e}?}{5}
+\contentsline {section}{\numberline {1.2}Biologia}{5}
+\contentsline {section}{\numberline {1.3}Struttura e modello matematico}{5}
+\contentsline {section}{\numberline {1.4}Architettura}{5}
+\contentsline {section}{\numberline {1.5}Funzioni di attivazione}{5}
+\contentsline {chapter}{\numberline {2}Feed Forward}{6}
+\contentsline {chapter}{\numberline {3}Ricorrenti}{7}

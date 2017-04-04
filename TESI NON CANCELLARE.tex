@@ -6,17 +6,24 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\usepackage{eso-pic}
 \usepackage{fancyhdr} \newcommand{\fncyblank}{\fancyhf{}}
 \newenvironment{abstract}% 
 {\cleardoublepage\fncyblank\null \vfill\begin{center}% 
 \bfseries \abstractname \end{center}}% 
 	{\vfill\null}
+\newcommand\AlCentroPagina[1]{% 
+\AddToShipoutPicture*{\AtPageCenter{%
+\makebox(0,0){\includegraphics%
+[width=0.9\paperwidth]{#1}}}}}
 \author{Maria Luisa Feola}
 \title{Reti Neurali}
 
 \begin{document}
+	\AlCentroPagina{Immagini/Frontespizio}\thispagestyle{empty}
 	
 	\begin{flushright} %DEDICA
+		\newpage
 		\null\vspace{\stretch{1}}
 		\thispagestyle{empty}
 		Dedica
